@@ -171,7 +171,7 @@ main, footer, header {
 
 .rating__wrapper {
     position: absolute;
-    bottom: 8px;
+    bottom: 4px;
     left: 0;
     background-color: white;
     padding: 5px 10px;
