@@ -22,6 +22,7 @@ main, footer, header {
 
 .nav-menu__link  {
     color: white;
+    text-decoration: none;
 }
 
 .navigation {
@@ -48,12 +49,19 @@ main, footer, header {
 }
 
 .search-button {
+    position: absolute;
+    top: 2px;
+    left: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32px;
     height: 32px;
     background-color: red;
     border: none;
     outline: none;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .search-input {
@@ -132,13 +140,6 @@ main, footer, header {
 
 .input__wrapper {
     position: relative;
-}
-
-.search-button {
-    position: absolute;
-    top: 2px;
-    left: 137px;
-    cursor: pointer;
 }
 
 .releases__wrapper,
