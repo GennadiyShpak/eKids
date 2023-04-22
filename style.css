@@ -1,10 +1,15 @@
 body {
     width: 1440px;
     margin: 0 auto;
+    background-color: grey;
 }
 
 ul {
     list-style: none;
+}
+
+main, footer, header {
+    background-color: white;
 }
 
 .header {
@@ -132,15 +137,8 @@ ul {
 .search-button {
     position: absolute;
     top: 2px;
-    left: 144px;
+    left: 137px;
     cursor: pointer;
-}
-
-.releases__title,
-.series__title,
-.character__title {
-    text-align: center;
-    margin-bottom: 50px;
 }
 
 .releases__wrapper,
@@ -149,6 +147,17 @@ ul {
     display: flex;
     padding: 0 200px;
     justify-content: space-between;
+}
+.character__list,
+.releases__title {
+    margin: 0;
+}
+
+.releases__title,
+.series__title,
+.character__title {
+    text-align: center;
+    padding: 50px 0;
 }
 
 .releases__picture {
@@ -215,7 +224,8 @@ ul {
 
 .footer {
     display: flex;
-    padding: 0 200px;
+    align-items: baseline;
+    padding: 100px 200px;
 }
 
 .social-icon__list {
@@ -223,4 +233,12 @@ ul {
     justify-content: space-between;
     width: 150px;
     padding: 0;
+}
+
+.social-icon__wrapper {
+    margin-right: 400px;
+}
+
+footer a {
+    text-decoration: none;
 }
